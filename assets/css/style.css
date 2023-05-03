@@ -10788,6 +10788,23 @@ textarea.form-control-lg {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.itm-rounded {
+  position: relative;
+  padding: 0.2rem 0.4rem;
+  font-weight: 700;
+  margin-left: 10px;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  background-color: #fff;
+  display: block;
+}
+.itm-rounded:hover {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  color: #fff;
+}
+.itm-rounded:hover span {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;

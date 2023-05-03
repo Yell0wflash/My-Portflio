@@ -37,3 +37,22 @@
         }
     }
 }
+
+.itm-rounded {
+    position: relative;
+    padding: 0.2rem 0.4rem;
+    font-weight: 700;
+    margin-left: 10px;
+    border: 0.1rem solid rgba($white, 0.6);
+    background-color: $white;
+    display: block;
+
+    &:hover {
+        @include gradient;
+        color: $white;
+
+        span {
+            background-color: rgba($black, 0.6);
+        }
+    }
+}
